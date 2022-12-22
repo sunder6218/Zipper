@@ -1,5 +1,5 @@
 {
-    "name": "chumper/zipper",
+    "name": "sunder6218/zipper",
     "type": "library",
     "description": "This is a little neat helper for the ZipArchive methods with handy functions",
     "keywords": ["laravel", "ZIP", "Archive"],
@@ -7,20 +7,19 @@
     "license": "Apache2",
     "authors": [
         {
-            "name": "Nils Plaschke",
-            "email": "github@nilsplaschke.de",
-            "homepage": "http://nilsplaschke.de",
+            "name": "Sunder S",
+            "email": "sunder@sinch.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=8.0",
         "ext-zip": "*",
-        "illuminate/support": "^5.0",
-        "illuminate/filesystem": "^5.0"
+        "illuminate/support": "^9.0",
+        "illuminate/filesystem": "^9.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7",
+        "phpunit/phpunit": "^9.0",
         "mockery/mockery": "^0.9.4"
     },
     "autoload": {
